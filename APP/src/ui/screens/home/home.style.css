@@ -1,0 +1,51 @@
+.section_home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filtro_home {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_filtro_home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.label_filtro_home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input_filtro_home {
+  width: 250px;
+}
+
+.select_filtro_home {
+  width: 350px;
+}
+
+.div_ordenar_home {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.postagens_home {
+  overflow-y: scroll;
+  max-height: 700px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}

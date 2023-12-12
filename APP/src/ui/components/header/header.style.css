@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  width: 100%;
+}
+
+.nav_header {
+  width: 50%;
+}
+
+.ul_header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.div_img_header {
+  padding: 15px;
+}
+
+.img_header {
+  width: 50px;
+  object-fit: cover;
+}

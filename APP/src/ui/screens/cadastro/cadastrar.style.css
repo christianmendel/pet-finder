@@ -1,0 +1,13 @@
+.section_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formulario_cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}

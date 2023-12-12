@@ -1,0 +1,24 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.security: DEBUG
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/petfinder}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:admin}
+  jpa:
+    hibernate:
+      # ddl-auto: create-drop
+      #  ddl-auto: create
+       ddl-auto: validate
+      #  ddl-auto: update
+  session:
+    store-type: jdbc
+    timeout: 3000
+
+

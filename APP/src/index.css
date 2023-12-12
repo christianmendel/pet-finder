@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #f2cd5c;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+input {
+  height: 24px;
+  width: 100%;
+  border: none;
+}
+
+select {
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+label {
+  color: black;
+}
+
+label {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin_right_10 {
+  margin-right: 10px;
+}
+.margin_left_10 {
+  margin-left: 10px;
+}
+.margin_top_10 {
+  margin-top: 10px;
+}
+.margin_bottom_10 {
+  margin-bottom: 10px;
+}
+.margin_10 {
+  margin: 10px;
+}
+
+.map {
+  width: 40%;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.iframe_map {
+  height: 500px;
+  width: 100%;
+}
+
+.lista_scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.lista_scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.lista_scroll::-webkit-scrollbar-thumb {
+  background: #6a7329;
+  border-radius: 10px;
+}
+
+.MdDeleteForever,
+.BiLogOut {
+  color: red;
+  width: 25px;
+  height: 25px;
+}
+
+.border_none {
+  border: none;
+}
+
+.text_align_center{
+  text-align: center;
+}

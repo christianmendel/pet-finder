@@ -1,0 +1,80 @@
+.div_postagem_post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  background: #bfa863;
+  color: white;
+}
+
+.img_pet_post {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.comentarios_postagens {
+  overflow-y: scroll;
+  margin: 10px 0;
+  max-height: 250px;
+  color: black;
+
+  padding: 5px;
+  width: 90%;
+}
+
+.comentario_div {
+  position: relative;
+  background-color: #d9d5a3;
+  margin: 10px;
+  padding: 5px;
+}
+
+.apagar_comentario_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.comentario_p_margin,
+.postagem_p {
+  margin: 4px;
+}
+
+.postagem_p {
+  font-style: oblique;
+  font-size: 18px;
+}
+
+.estado_cidade_div,
+.status_data_div {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.adicionar_comentario_div {
+  width: 100%;
+}
+
+.adicionar_comentario_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.adicionar_comentario_label {
+  width: 70%;
+}
+
+.adicionar_comentario_input {
+  width: 100%;
+}

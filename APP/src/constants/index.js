@@ -1,0 +1,1 @@
+export const BASE_SOCIAL_FLIX= 'http://localhost:8080/'

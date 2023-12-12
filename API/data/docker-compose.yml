@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=biblioteca
+      - POSTGRES_PASSWORD=biblioteca
+      - POSTGRES_DB=biblioteca
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@biblioteca.com.br
+      - PGADMIN_DEFAULT_PASSWORD=biblioteca
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    ports:
+      - 9000:80
+
+volumes:
+  postgres-data:
+  pgadmin-data:
